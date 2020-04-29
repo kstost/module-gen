@@ -39,7 +39,7 @@ if(module_name) {
             console.log('cd ' + __dirname + '/' + parent_path + module_name);
             console.log('코드 수정후')
             console.log('의존성 있는것들에 대해서 설치 후')
-            console.log('git add . ; git commit -m "yeah" ; git push -u origin master')
+            console.log('git add . \ngit commit -m "yeah"\ngit push -u origin master')
             console.log('npm publish')
         }
     })
