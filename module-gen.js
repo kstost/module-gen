@@ -35,8 +35,8 @@ if(module_name) {
             console.log('https://github.com/new')
             console.log('아래이름으로 REPO만들고')
             console.log(module_name)
-            console.log('커맨드 복사해서 본 폴더에서 실행')
-            console.log('cd ' + __dirname + '/' + parent_path + module_name);
+            //console.log('커맨드 복사해서 본 폴더에서 실행')
+            //console.log('cd ' + __dirname + '/' + parent_path + module_name);
             console.log('코드 수정후')
             console.log('의존성 있는것들에 대해서 설치 후')
             console.log('git add . \ngit commit -m "yeah"\ngit push -u origin master')
